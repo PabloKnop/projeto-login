@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+:root{
+/* Color Theme Swatches in Hex */
+--cor1 : #333333; 
+--cor2 : #594C3E; 
+--cor3 : #503B2A; 
+--cor4 : #705948; 
+--cor5 : #BCA68F;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#login{
+    position: relative;
+    height: 550px;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+}
+
+#formulario{
+    position: absolute;
+    top: 40%;
+    background-color: var(--cor4);
+    height: 60%;
+    padding: 10px; 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#formulario > h1 {
+    text-align: center;
+}
+
+#formulario > p {
+    font-size: small;
+    padding-top: 10px;
+}
+
+
+#imagem{
+    background: url(../imagens/login.jpg); 
+    height: 40%;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
