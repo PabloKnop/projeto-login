@@ -15,22 +15,27 @@
 }
 
 body{
+    position: relative;
     background-color: var(--cor1);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
 }
+
+
+main{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 80vh;
+}
+
+
 
 #login{
-    position: relative;
     height: 500px;
     width: 250px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
 }
-
-
-
-
 
 
 
@@ -137,7 +142,6 @@ body{
 
 
 #formulario{
-    position: absolute;
     top: 40%;
     background-color: var(--cor2);
     height: 60%;
