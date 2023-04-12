@@ -37,8 +37,16 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 20px;
+    overflow: hidden;
 }
 
+#login > #imagem{
+    display: block;
+    background: url(../imagens/login.jpg); 
+    height: 200px;
+    background-size: cover;
+}
 
 
 #senha{
@@ -68,8 +76,6 @@ main{
     background-size: 15px;
     background-position: 180px;   
 }
-
-
 
 
 #entrar{
@@ -144,12 +150,11 @@ main{
 
 
 #formulario{
+    display: block;
     top: 40%;
     background-color: var(--cor2);
     height: 60%;
     padding: 10px; 
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
 }
 
 #formulario > h1 {
@@ -162,14 +167,4 @@ main{
     padding-bottom: 5px;
 }
 
-
-
-
-#imagem{
-    background: url(../imagens/login.jpg); 
-    height: 40%;
-    background-size: cover;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;   
-}
 
