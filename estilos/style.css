@@ -34,7 +34,7 @@ main{
 
 #login{
     position: absolute;
-    height: 500px;
+    height: 550px;
     width: 250px;
     top: 50%;
     left: 50%;
@@ -42,6 +42,7 @@ main{
     border-radius: 20px;
     overflow: hidden;
     transition: width 0.3s, height 0.3s;
+    background-color: aqua;
 }
 
 #login > #imagem{
@@ -154,7 +155,7 @@ main{
     display: block;
     top: 40%;
     background-color: var(--cor2);
-    height: 60%;
+    height: 64%;
     padding: 10px; 
 }
 
@@ -166,6 +167,10 @@ main{
     font-size: small;
     padding-top: 10px;
     padding-bottom: 5px;
+    text-align: center;
 }
 
+#login > #formulario > form {
+    padding-top: 15px;
+}
 
