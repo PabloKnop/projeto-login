@@ -10,7 +10,51 @@
     }
 
 
-    @media screen and (min-width: 481px) and (max-width: 768px) {
+    @media screen and (min-width: 481px) and (max-width: 768px){
+
+        #login{
+            width: 90vw;
+        }
+
+        #login > #imagem{
+            float: left;
+            width: 35%;
+            height: 100%;
+        }
+
+        #login > #formulario{
+            float: right;
+            width: 65%; 
+            height: 100%; 
+            padding-top: 50px;
+        }
+
+        #formulario > h1{
+            font-size: 25px;
+            padding-top: 15px;
+        }
+
+        #formulario > form{
+            padding-top: 30px;
+        }
+
+        #formulario > p{
+            text-align: center;
+            padding-top: 30px;
+            font-size: 15px;
+        }
+
+        #text1{
+            background-position: 5%;  
+        }
+        
+        #text2{  
+            background-position: 5%;
+        }
+    }
+
+
+    @media screen and (min-width: 769px) and (max-width: 1024px){
 
         #login{
             width: 90vw;
@@ -27,25 +71,74 @@
             width: 65%; 
             height: 100%;  
         }
+
+        #formulario > form{
+            padding-top: 50px;
+        }
+
+        #formulario > p{
+            text-align: center;
+            font-size: 18px;
+            padding-top: 25px;
+        }
+
+        #formulario > h1{
+            font-size: 25px;
+            padding-top: 25px;
+        }
+
+        #text1{
+            background-position: 7.5%;  
+        }
+          
+        #text2{  
+            background-position: 7.5%;
+        }
     }
 
-    @media screen and (max-width: 769px){
+
+    @media screen and (min-width: 1024px){
 
         #login{
-            width: 90vw;
+            width: 1024px;
         }
 
         #login > #imagem{
             float: left;
-            width: 35%;
+            width: 50%;
             height: 100%;
         }
 
         #login > #formulario{
             float: right;
-            width: 65%; 
-            height: 100%;  
+            width: 50%; 
+            height: 100%;
         }
+
+        #formulario > form{
+            padding-top: 50px;
+     
+        }
+
+        #formulario > p{
+            text-align: center;
+            font-size: 20px;
+            padding-top: 25px;
+        }
+        
+        #formulario > h1{
+            padding-top: 25px;
+            font-size: 30px;
+        }
+
+        #text1{
+            background-position: 8%;  
+        }
+         
+        #text2{  
+            background-position: 8%;
+        }
+
     }
-    
+
 
