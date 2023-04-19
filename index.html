@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mq.css">
     <title>Login</title>
@@ -22,18 +24,22 @@
                 <form action="login.php">
 
                     <div id="text1">
-                        <label for="iemail"></label>
+                        <span class="material-icons">person</span>
                         <input class="teste1" type="email" name="iemail" id="iemail" required placeholder=" seu e-mail"><br>
+                        <label for="iemail"></label>
                     </div>
 
                     <div id="text2">
-                        <label for="isenha"></label>
+                        <span class="material-icons">vpn_key</span>
                         <input class="teste2" type="password" name="isenha" id="isenha" required placeholder=" sua senha">
+                        <label for="isenha"></label>
                     </div>
 
                     <input id="entrar" type="submit" value="Entrar"><br>
-                    <input id="senha" type="submit" value="Esqueci a Senha">
 
+                    <div id="boxsenha">
+                        <a id="senha" href="">Esqueci a Senha</a>
+                    </div>
                 </form>
 
             </div>    
