@@ -10,10 +10,11 @@
     }
 
 
-    @media screen and (min-width: 481px) and (max-width: 768px){
+  /*  @media screen and (min-width: 481px) and (max-width: 768px){
 
         #login{
             width: 90vw;
+            height: 40vh;
         }
 
         #login > #imagem{
@@ -26,12 +27,11 @@
             float: right;
             width: 65%; 
             height: 100%; 
-            padding-top: 50px;
+            padding-top: 20px;
         }
 
         #formulario > h1{
             font-size: 25px;
-            padding-top: 15px;
         }
 
         #formulario > form{
@@ -78,6 +78,7 @@
 
         #login{
             width: 90vw;
+            height: 40vh;
         }
 
         #login > #imagem{
@@ -90,6 +91,7 @@
             float: right;
             width: 65%; 
             height: 100%;  
+            padding-top: 20px;
         }
 
         #formulario > form{
@@ -104,7 +106,6 @@
 
         #formulario > h1{
             font-size: 25px;
-            padding-top: 25px;
         }
         
         #formulario > form > #box1 > span{
@@ -141,6 +142,7 @@
 
         #login{
             width: 1024px;
+            height: 40vh;
         }
 
         #login > #imagem{
@@ -167,7 +169,6 @@
         }
         
         #formulario > h1{
-            padding-top: 25px;
             font-size: 30px;
         }
 
