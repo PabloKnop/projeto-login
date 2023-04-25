@@ -35,7 +35,7 @@ main{
 
 #login{
     position: absolute;
-    height: 550px;
+    height: 525px;
     width: 250px;
     top: 50%;
     left: 50%;
@@ -61,10 +61,10 @@ main{
 
 
 #formulario{
+    overflow: hidden;
     display: block;
     top: 40%;
-    background-color: var(--cor2);
-    height: 64%;
+    background-color: var(--cor2);  
     padding: 10px; 
 }
 
@@ -88,7 +88,7 @@ main{
 #formulario > form > #box1{
     position: relative;
     background-color: #503B2A;
-    border-radius: 5px;
+    border-radius: 15px;
     width: 100%;
     height: 45px;
 }
@@ -100,24 +100,24 @@ main{
     left: 1%;
 }
 
-
 #formulario > form > #box1 > input[type=email]{
     position: absolute;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     height: 90%;
     width: 82%;
     top: 5%;
     left: 17%;
 }
 
-
 #formulario > form > #box2{
     position: relative;
     background-color: #503B2A;
-    border-radius: 5px;
+    border-radius: 15px;
     width: 100%;
     height: 45px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #formulario > form > #box2 > span{
@@ -130,7 +130,7 @@ main{
 #formulario > form > #box2 > input[type=password]{
     position: absolute;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     height: 90%;
     width: 82%;
     top: 5%;
@@ -150,12 +150,13 @@ main{
     width: 100%;
     height: 45px;
     border: 0px solid;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: var(--cor3);
     color: #dfdfdf;
     font-size: medium;
     font-weight: bold;
-    cursor: pointer;   
+    cursor: pointer;  
+    margin-bottom: 5px;
 }
 
 #formulario > form > #entrar:hover{
@@ -167,7 +168,7 @@ main{
 #formulario > form > #esquecisenha{
     display: block;
     border: 2px solid #333333;
-    border-radius: 5px;
+    border-radius: 15px;
     text-align: center;
     width: 100%;
     height: 45px;

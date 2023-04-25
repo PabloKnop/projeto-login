@@ -10,7 +10,7 @@
     }
 
 
-    /*@media screen and (min-width: 481px) and (max-width: 768px){
+    @media screen and (min-width: 481px) and (max-width: 768px){
 
         #login{
             width: 90vw;
@@ -44,12 +44,38 @@
             font-size: 15px;
         }
 
-        #text1{
-            background-position: 5%;  
+        #formulario > form > #box1 > span{
+            position: absolute;
+            font-size: 2.1em;
+            top: 12%;
+            left: 4.5%;
         }
-        
-        #text2{  
-            background-position: 5%;
+
+        #formulario > form > #box2 > span{
+            position: absolute;
+            font-size: 2.1em;
+            top: 12%;
+            left: 4.5%;
+        }
+
+        #formulario > form > #box1 > input[type=email]{
+            position: absolute;
+            border: none;
+            border-radius: 15px;
+            height: 90%;
+            width: 82%;
+            top: 5%;
+            left: 17.3%;
+        }
+
+        #formulario > form > #box2 > input[type=password]{
+            position: absolute;
+            border: none;
+            border-radius: 15px;
+            height: 90%;
+            width: 82%;
+            top: 5%;
+            left: 17.3%;
         }
     }
 
@@ -87,13 +113,40 @@
             padding-top: 25px;
         }
 
-        #text1{
-            background-position: 7.5%;  
+        #formulario > form > #box1 > span{
+            position: absolute;
+            font-size: 2.1em;
+            top: 12%;
+            left: 6%;
         }
-          
-        #text2{  
-            background-position: 7.5%;
+
+        #formulario > form > #box2 > span{
+            position: absolute;
+            font-size: 2.1em;
+            top: 12%;
+            left: 6%;
         }
+
+        #formulario > form > #box1 > input[type=email]{
+            position: absolute;
+            border: none;
+            border-radius: 15px;
+            height: 90%;
+            width: 82%;
+            top: 5%;
+            left: 17.5%;
+        }
+
+        #formulario > form > #box2 > input[type=password]{
+            position: absolute;
+            border: none;
+            border-radius: 15px;
+            height: 90%;
+            width: 82%;
+            top: 5%;
+            left: 17.5%;
+        }
+        
     }
 
 
@@ -131,14 +184,39 @@
             font-size: 30px;
         }
 
-        #text1{
-            background-position: 8%;  
-        }
-         
-        #text2{  
-            background-position: 8%;
+        #formulario > form > #box1 > span{
+            position: absolute;
+            font-size: 2.1em;
+            top: 12%;
+            left: 6%;
         }
 
+        #formulario > form > #box2 > span{
+            position: absolute;
+            font-size: 2.1em;
+            top: 12%;
+            left: 6%;
+        }
+
+        #formulario > form > #box1 > input[type=email]{
+            position: absolute;
+            border: none;
+            border-radius: 15px;
+            height: 90%;
+            width: 82%;
+            top: 5%;
+            left: 17.5%;
+        }
+
+        #formulario > form > #box2 > input[type=password]{
+            position: absolute;
+            border: none;
+            border-radius: 15px;
+            height: 90%;
+            width: 82%;
+            top: 5%;
+            left: 17.5%;
+        }
     }
 
 
