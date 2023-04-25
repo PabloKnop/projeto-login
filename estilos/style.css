@@ -83,31 +83,28 @@ main{
 
 
 
-
+#formulario > form > label{
+    display: none;
+}
 
 #formulario > form > #box1{
-    position: relative;
     background-color: #503B2A;
     border-radius: 15px;
-    width: 100%;
     height: 45px;
 }
 
 #formulario > form > #box1 > span{
-    position: absolute;
     font-size: 2.1em;
-    top: 12%;
-    left: 1%;
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
 #formulario > form > #box1 > input[type=email]{
-    position: absolute;
     border: none;
     border-radius: 15px;
     height: 90%;
-    width: 82%;
-    top: 5%;
-    left: 17%;
+    transform: translateY(-9.8px);
+    width: calc(100% - 45px);
 }
 
 #formulario > form > #box2{
@@ -121,20 +118,17 @@ main{
 }
 
 #formulario > form > #box2 > span{
-    position: absolute;
     font-size: 2.1em;
-    top: 12%;
-    left: 1%;
+    padding-top: 5px;
+    padding-left: 5px; 
 }
 
 #formulario > form > #box2 > input[type=password]{
-    position: absolute;
     border: none;
     border-radius: 15px;
     height: 90%;
-    width: 82%;
-    top: 5%;
-    left: 17%;
+    transform: translateY(-9.8px);
+    width: calc(100% - 45px);
 }
 
 

@@ -45,38 +45,32 @@
         }
 
         #formulario > form > #box1 > span{
-            position: absolute;
             font-size: 2.1em;
-            top: 12%;
-            left: 4.5%;
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+        
+        #formulario > form > #box1 > input[type=email]{
+            border: none;
+            border-radius: 15px;
+            height: 90%;
+            transform: translateY(-9.8px);
+            width: calc(100% - 45px);
         }
 
         #formulario > form > #box2 > span{
-            position: absolute;
             font-size: 2.1em;
-            top: 12%;
-            left: 4.5%;
+            padding-top: 5px;
+            padding-left: 5px; 
         }
-
-        #formulario > form > #box1 > input[type=email]{
-            position: absolute;
-            border: none;
-            border-radius: 15px;
-            height: 90%;
-            width: 82%;
-            top: 5%;
-            left: 17.3%;
-        }
-
+        
         #formulario > form > #box2 > input[type=password]{
-            position: absolute;
             border: none;
             border-radius: 15px;
             height: 90%;
-            width: 82%;
-            top: 5%;
-            left: 17.3%;
-        }
+            transform: translateY(-9.8px);
+            width: calc(100% - 45px);
+        }  
     }
 
 
@@ -112,41 +106,34 @@
             font-size: 25px;
             padding-top: 25px;
         }
-
+        
         #formulario > form > #box1 > span{
-            position: absolute;
             font-size: 2.1em;
-            top: 12%;
-            left: 6%;
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+        
+        #formulario > form > #box1 > input[type=email]{
+            border: none;
+            border-radius: 15px;
+            height: 90%;
+            transform: translateY(-9.8px);
+            width: calc(100% - 45px);
         }
 
         #formulario > form > #box2 > span{
-            position: absolute;
             font-size: 2.1em;
-            top: 12%;
-            left: 6%;
-        }
-
-        #formulario > form > #box1 > input[type=email]{
-            position: absolute;
-            border: none;
-            border-radius: 15px;
-            height: 90%;
-            width: 82%;
-            top: 5%;
-            left: 17.5%;
-        }
-
-        #formulario > form > #box2 > input[type=password]{
-            position: absolute;
-            border: none;
-            border-radius: 15px;
-            height: 90%;
-            width: 82%;
-            top: 5%;
-            left: 17.5%;
+            padding-top: 5px;
+            padding-left: 5px; 
         }
         
+        #formulario > form > #box2 > input[type=password]{
+            border: none;
+            border-radius: 15px;
+            height: 90%;
+            transform: translateY(-9.8px);
+            width: calc(100% - 45px);
+        }  
     }
 
 
@@ -185,38 +172,32 @@
         }
 
         #formulario > form > #box1 > span{
-            position: absolute;
             font-size: 2.1em;
-            top: 12%;
-            left: 6%;
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+        
+        #formulario > form > #box1 > input[type=email]{
+            border: none;
+            border-radius: 15px;
+            height: 90%;
+            transform: translateY(-9.8px);
+            width: calc(100% - 45px);
         }
 
         #formulario > form > #box2 > span{
-            position: absolute;
             font-size: 2.1em;
-            top: 12%;
-            left: 6%;
+            padding-top: 5px;
+            padding-left: 5px; 
         }
-
-        #formulario > form > #box1 > input[type=email]{
-            position: absolute;
-            border: none;
-            border-radius: 15px;
-            height: 90%;
-            width: 82%;
-            top: 5%;
-            left: 17.5%;
-        }
-
+        
         #formulario > form > #box2 > input[type=password]{
-            position: absolute;
             border: none;
             border-radius: 15px;
             height: 90%;
-            width: 82%;
-            top: 5%;
-            left: 17.5%;
-        }
+            transform: translateY(-9.8px);
+            width: calc(100% - 45px);
+        }  
     }
 
 
