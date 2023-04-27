@@ -13,8 +13,8 @@
     @media screen and (min-width: 481px) and (max-width: 768px){
 
         #login{
-            width: 90vw;
-            height: 40vh;
+            width: 90%;
+            height: 40%;
         }
 
         #login > #imagem{
@@ -77,8 +77,8 @@
     @media screen and (min-width: 769px) and (max-width: 1024px){
 
         #login{
-            width: 90vw;
-            height: 40vh;
+            width: 90%;
+            height: 40%;
         }
 
         #login > #imagem{
@@ -142,7 +142,7 @@
 
         #login{
             width: 1024px;
-            height: 40vh;
+            height: 40%;
         }
 
         #login > #imagem{
