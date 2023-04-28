@@ -34,8 +34,9 @@ main{
 
 
 #login{
+    background-color: aqua;
     position: absolute;
-    height: 525px;
+    height: 550px;
     width: 250px;
     top: 50%;
     left: 50%;
@@ -63,12 +64,13 @@ main{
 #formulario{
     overflow: hidden;
     display: block;
-    top: 40%;
     background-color: var(--cor2);  
     padding: 10px; 
+    height: 350px;
 }
 
 #formulario > h1 {
+    padding-top: 10px;
     text-align: center;
 }
 
